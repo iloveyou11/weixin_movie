@@ -1,0 +1,39 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/news/news",
+        "pages/news/post-detail/post-detail",
+        "pages/movies/movies",
+        "pages/movies/more-movies/more-movies",
+        "pages/movies/movie-detail/movie-detail",
+        "pages/music/music"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#405f80",
+        "navigationBarTitleText": "时尚影听",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "borderStyle": "white",
+        "list": [{
+                "pagePath": "pages/news/news",
+                "text": "阅读",
+                "iconPath": "/images/tab/yuedu.png",
+                "selectedIconPath": "/images/tab/yuedu_hl.png"
+            },
+            {
+                "pagePath": "pages/movies/movies",
+                "text": "电影",
+                "iconPath": "/images/tab/dianying.png",
+                "selectedIconPath": "/images/tab/dianying_hl.png"
+            },
+            {
+                "pagePath": "pages/music/music",
+                "text": "音乐",
+                "iconPath": "/images/tab/ciwei.png",
+                "selectedIconPath": "/images/tab/ciwei_hl.png"
+            }
+        ]
+    }
+}

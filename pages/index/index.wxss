@@ -1,0 +1,43 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.user-avatar{
+  height: 150rpx;
+  width: 150rpx;
+}
+
+.user-name{
+  margin-top: 200rpx;
+  font-size: 20px;
+  font-family: MicroSoft Yahei;
+  font-weight: bold;
+}
+
+.motto-container{
+  margin-top: 200rpx;
+  border: 1px solid #405F80;
+  height: 80rpx;
+  width: 200rpx;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.motto{
+  font-size: 10px;
+  font-family: MicroSoft Yahei;
+  line-height: 80rpx;
+  color: #405F80;
+}
+
+page{
+  background-color: #b3d4db;
+  height: 100%;
+}
+
